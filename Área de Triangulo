@@ -1,0 +1,10 @@
+Algoritmo A.T. ()
+Inicio 
+Definir base,altura,area como Real
+  Escribir "ingrese base del triangulo"
+  Leer base
+  Escribir "Ingrese altura del triangulo"
+  Leer altura
+  area <- (base*altura)/2
+    Escribir el "El area del triangulo es:", area
+Fin
