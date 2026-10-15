@@ -1,0 +1,8 @@
+Algoritmo AreaRectangulo ()
+  Inicio
+    Definir base, altura, area 
+    Escribir "Ingrese la base del rectángulo:"
+    Escribir "Ingrese la altura del rectángulo:"
+    area <- base * altura
+    Escribir "El área del rectángulo es: ", area
+Fin
