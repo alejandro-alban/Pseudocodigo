@@ -1,0 +1,29 @@
+Algoritmo PromedioFinal()
+  //Declaraciones
+  Definir A, B, C como Real
+  //Cuerpo
+  Escribir "Ingrese nota 1er Parcial:" A
+  Leer A
+  Mientras 
+          la nota sea <0 y >10 
+          Escribir "Nota invalida, debe ser un numero del 1 al 10"
+  FinMientras
+  Escribir "Ingrese nota 2do Parcial:" B
+  Leer B
+  Mientras 
+          la nota sea <0 y >10 
+          Escribir "Nota invalida, debe ser un numero del 1 al 10"
+  FinMientras
+  Escribir "Ingrese nota 3er Parcial:" C
+  Leer C
+  Mientras 
+          la nota sea <0 y >10 
+          Escribir "Nota invalida, debe ser un numero del 1 al 10"
+  FinMientras
+    promedio <- (A x 0.30) + (B x 0.30) + (C x 0.40)/3
+  Mostrar promedio
+  Si
+    el promedio es >7 mostrar "Aprobado"
+  Sino
+    mostrar "No Aprobado"
+Fin Algoritmo
