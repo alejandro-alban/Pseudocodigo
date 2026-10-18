@@ -4,7 +4,6 @@ Algoritmo DiaDeLaSemana ()
     //Cuerpo
     Escribir "Ingrese un número del 1 al 7:"
     Leer numero
-    Mientras el numero sea <1 y >7 
     Segun numero Hacer
         1:  Escribir "El día es: Lunes"
         2:  Escribir "El día es: Martes"
