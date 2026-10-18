@@ -1,6 +1,9 @@
 Algoritmo CircunferenciaYArea ()
-Inicio
-    Definir radio, longitud, area Como Real
+    //Declaraciones
+    Definir radio, longitud, area como Real
+    Definir pi como Real
+    PI <- 3.1416
+    //Cuerpo
     Escribir "Ingrese el radio de la circunferencia:"
     longitud <- 2 * PI * radio
     area <- PI * (radio ^2)
