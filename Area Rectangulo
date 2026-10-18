@@ -1,8 +1,11 @@
 Algoritmo AreaRectangulo ()
-  Inicio
-    Definir base, altura, area 
-    Escribir "Ingrese la base del rectángulo:"
-    Escribir "Ingrese la altura del rectángulo:"
-    area <- base * altura
-    Escribir "El área del rectángulo es: ", area
+  //Declaraciones
+  Definir base, altura, area 
+  //Cuerpo
+  Escribir "Ingrese la base del rectángulo:"
+    Leer base
+  Escribir "Ingrese la altura del rectángulo:"
+    Leer altura
+      area <- base * altura
+  Escribir "El área del rectángulo es: ", area
 Fin
