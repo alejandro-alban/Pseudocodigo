@@ -8,4 +8,4 @@ Algoritmo AreaRectangulo ()
     Leer altura
       area <- base * altura
   Escribir "El área del rectángulo es: ", area
-Fin
+Fin Algoritmo
