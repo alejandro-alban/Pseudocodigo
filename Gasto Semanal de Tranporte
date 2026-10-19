@@ -1,0 +1,15 @@
+Algritmo_Gasto_Semanal()
+//Declaraciones 
+Definir viajes por dia, costo del pasaje, dias a la semana, gasto semanal como Real
+//Cuerpo
+Escribir "Ingrese viajes por dia"
+ Leer viajesDia
+Escribir "Ingrese el costo de cada pasaje:"
+ Leer costoPasaje
+Escribir "Ingrese los dias que viaja a la semana:"
+ Leer diasSemana
+
+    gastoSemanal <- viajesDia * costoPasaje * diasSemana
+
+Escribir "El gasto total semanal de transporte es: $", gastoSemanal
+FinAlgoritmo
