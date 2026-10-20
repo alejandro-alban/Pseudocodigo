@@ -3,9 +3,9 @@ Algoritmo A.T. ()
   Definir base,altura,area como Real
   //Cuerpo
   Escribir "ingrese base del triangulo"
-  Leer base
+    Leer base
   Escribir "Ingrese altura del triangulo"
-  Leer altura
-    area <- (base*altura)/2
+    Leer altura
+      area <- (base*altura)/2
   Escribir el "El area del triangulo es:", area
-Fin
+FinAlgoritmo
