@@ -1,0 +1,17 @@
+Algoritmo_Aprobación_De_Asignatura()
+  //Declaraciones
+  Definir promedio como Real
+  //Cuerpo  
+  Escribir "Ingrese su promedio"
+    Leer promedio
+  Mientras 
+          el promedio sea <0 y >10
+          Escribir "Error: Nota invalida debe ser un numero del 1 al 10"
+  FinMientras
+  Si la nota es <7 
+    Escribir "NO APRUEBA"
+  Si la nota >7
+    Escribir "APRUEBA"
+  FinSi
+  FinSi
+FinAlgoritmo
