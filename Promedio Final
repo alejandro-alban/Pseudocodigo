@@ -26,4 +26,5 @@ Algoritmo_Promedio_Final()
       el promedio es >7 Escibir "Aprobado"
   Sino
       Escribir "No Aprobado"
+  FinSi
 Fin Algoritmo
