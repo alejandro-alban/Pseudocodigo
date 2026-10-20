@@ -1,22 +1,26 @@
 Algoritmo_Promedio_3_Notas
-Definir nota1, nota2, nota3 como Real
-Escribir "Ingrese su 1ra nota:"
-Leer nota1
-Mientras 
-        la nota sea <0 y >10
-        Escribir "Nota invalida, debe ser un numero del 1 al 10"
-FinMientras
-Escribir "Ingrese su 2da nota:"
-Leer nota2
-Mientras 
-        la nota sea <0 y >10 
-        Escribir "Nota invalida, debe ser un numero del 1 al 10"
-FinMientras
-Escribir "Ingrese su 3ra nota:"
-Leer nota3
-Mientras
-        la nota sea <0 y >10 
-        Escribir "Nota invalida, debe ser un numero del 1 al 10"
+  //Declaraciones
+  Definir nota1, nota2, nota3 como Real
+  //Cuerpo
+  Escribir "Ingrese su 1ra nota:"
+    Leer nota1
+  Mientras 
+          la nota sea <0 y >10
+          Escribir "Nota invalida, debe ser un numero del 1 al 10"
   FinMientras
-promedio <- (nota1 + nota2 + nota3) / 3
-Escribir "Su promedio es:" promedio
+  Escribir "Ingrese su 2da nota:"
+    Leer nota2
+  Mientras 
+          la nota sea <0 y >10 
+          Escribir "Nota invalida, debe ser un numero del 1 al 10"
+  FinMientras
+  Escribir "Ingrese su 3ra nota:"
+    Leer nota3
+  Mientras
+          la nota sea <0 y >10 
+          Escribir "Nota invalida, debe ser un numero del 1 al 10"
+  FinMientras
+
+      promedio <- (nota1 + nota2 + nota3) / 3
+  Escribir "Su promedio es:" promedio
+FinAlgoritmo
