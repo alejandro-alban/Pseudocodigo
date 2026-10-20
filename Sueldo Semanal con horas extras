@@ -1,0 +1,17 @@
+Algoritmo_Sueldo_Semanal()
+  //Declaraciones
+  Definir horas trabajadas, pago por hora,sueldo como Real 
+  //Cuerpo 
+  Escribir "Ingrese sus horas trabajadas"
+    Leer horas trabajadas 
+  Escribir "Ingrese su pago por hora"
+    Leer pago por hora 
+
+  Si horas trabajadas ≤ 40: 
+     sueldo <- horas × tarifa
+  Si horas trabajadas > 40: 
+     sueldo = (40 × tarifa) + ((horas – 40) × tarifa × 2)
+  FinSi
+  FinSi
+  Escribir "El sueldo semanal es: $", sueldo
+FinAlgoritmo
