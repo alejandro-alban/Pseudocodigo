@@ -1,13 +1,13 @@
 Algoritmo_Dolares_Pesos()
-//Declaraciones
-Definir dolares, tipo de cambio, pesos como Real
-//Cuerpo
-Escribir "Ingrese cuantos dolares desea cambiar"
-Leer dolares
-Escribir "Ingrese el tipo de cambio actual"
-Leer tipo de cambio
+  //Declaraciones
+  Definir dolares, tipo de cambio, pesos como Real
+  //Cuerpo
+  Escribir "Ingrese cuantos dolares desea cambiar"
+    Leer dolares
+  Escribir "Ingrese el tipo de cambio actual"
+    Leer tipo de cambio
 
-  pesos <- (dolares x tipo de cambio)
+      pesos <- (dolares x tipo de cambio)
 
-Escribir "Su valor en pesos Mexicanos es:" pesos
+  Escribir "Su valor en pesos Mexicanos es:" pesos
 FinAlgoritmo
