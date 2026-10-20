@@ -1,15 +1,15 @@
 Algoritmo_Precio_Final_e_IVA
-//Declaraciones
-Definir precio original, precio descuento, IVA, precio final como Real
-//Cuerpo
-Escribir "Ingrese precio original del articulo"
-Leer precio original
+  //Declaraciones
+  Definir precio original, precio descuento, IVA, precio final como Real
+  //Cuerpo
+  Escribir "Ingrese precio original del articulo"
+    Leer precio original
 
-descuento <- precio original x 0.20
-precio descuento <- precio original - descuneto
-IVA <- precio descuento x 0.15
-precio final <- precio descuento + IVA
+      descuento <- precio original x 0.20
+      precio descuento <- precio original - descuneto
+      IVA <- precio descuento x 0.15
+      precio final <- precio descuento + IVA
 
-Esccribir "El precio con descuento es:" precio decuento
-Escribir "EL precio final con IVA es:" precio final
+  Esccribir "El precio con descuento es:" precio decuento
+  Escribir "EL precio final con IVA es:" precio final
 FinAlgoritmo
