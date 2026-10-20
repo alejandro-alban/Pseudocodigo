@@ -1,9 +1,9 @@
-Algoritmo DiaDeLaSemana ()
+Algoritmo_Dias_De_La_Semana()
     //Declaraciones
     Definir numero Como Entero
     //Cuerpo
     Escribir "Ingrese un número del 1 al 7:"
-    Leer numero
+        Leer numero
     Segun numero Hacer
         1:  Escribir "El día es: Lunes"
         2:  Escribir "El día es: Martes"
@@ -13,6 +13,6 @@ Algoritmo DiaDeLaSemana ()
         6:  Escribir "El día es: Sábado"
         7:  Escribir "El día es: Domingo"
         De Otro Modo:
-            Escribir "Error: Número fuera del rango (1-7)"
+    Escribir "Error: Número fuera del rango (1-7)"
     FinSegun
-Fin
+FinAlgoritmo
