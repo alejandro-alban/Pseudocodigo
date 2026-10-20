@@ -1,0 +1,15 @@
+Algoritmo_Area_Perimetro_Rectangulo()
+//Declaraciones
+Definir largo, ancho, area, perimetro como Real
+//Cuerpo 
+Escribir "Ingrese largo del rectangulo"
+Leer largo
+Escribir "Ingrese ancho del rectangulo"
+Leer ancho
+
+  area <- (largo × ancho)
+  perimetro <- (2 × (largo + ancho))
+
+Escribir "El area del rectangulo es:" area
+Escribir "El perimetro del rectangulo es" perimetro
+FinAlgoritmo
