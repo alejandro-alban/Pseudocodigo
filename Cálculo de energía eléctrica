@@ -1,0 +1,17 @@
+Algoritmo Energia_Electrica()
+    //Declaraciones
+    Definir potencia, horas, tarifa, consumoMensual, costoTotal Como Real
+    //Cuerpo
+    Escribir "Ingrese la potencia del electrodomestico en W:"
+      Leer potencia
+    Escribir "Ingrese las horas de uso diario:"
+      Leer horas
+    Escribir "Ingrese la tarifa por kWh:"
+      Leer tarifa
+
+    consumoMensual <- (potencia / 1000) * horas * 30
+    costoTotal <- consumoMensual * tarifa
+
+    Escribir "El consumo mensual en kWh es: ", consumoMensual
+    Escribir "El costo total es: $", costoTotal
+FinAlgoritmo
