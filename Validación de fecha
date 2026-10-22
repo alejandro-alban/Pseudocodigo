@@ -1,0 +1,42 @@
+Algoritmo Validar_Fecha
+    //Declaraciones
+    Definir dia, mes, anio, diasMes Como Entero
+    Definir bisiesto Como Logico
+    //Cuerpo
+    Escribir "Ingrese el dia:"
+      Leer dia
+    Escribir "Ingrese el mes:"
+      Leer mes
+    Escribir "Ingrese el anio:"
+      Leer anio
+
+    bisiesto <- Falso
+    diasMes <- 0
+    Si anio MOD 400 = 0 Entonces
+        bisiesto <- Verdadero
+    SiNo
+        Si anio MOD 4 = 0 Y anio MOD 100 <> 0 Entonces
+            bisiesto <- Verdadero
+        FinSi
+    FinSi
+
+    Si mes >= 1 Y mes <= 12 Entonces
+        Segun mes Hacer
+            1, 3, 5, 7, 8, 10, 12:
+                diasMes <- 31
+            4, 6, 9, 11:
+                diasMes <- 30
+            2:
+                Si bisiesto Entonces
+                    diasMes <- 29
+                SiNo
+                    diasMes <- 28
+                FinSi
+        FinSegun
+    FinSi
+    Si anio > 0 Y mes >= 1 Y mes <= 12 Y dia >= 1 Y dia <= diasMes Entonces
+        Escribir "La fecha es valida"
+    SiNo
+        Escribir "La fecha no es valida"
+    FinSi
+FinAlgoritmo
