@@ -1,0 +1,24 @@
+Algoritmo Menor_Tres_Numeros
+
+    //Declaraciones
+    Definir num1, num2, num3, menor Como Real
+    //Cuerpo
+    Escribir "Ingrese el primer numero:"
+      Leer num1
+    Escribir "Ingrese el segundo numero:"
+      Leer num2
+    Escribir "Ingrese el tercer numero:"
+      Leer num3
+
+    Si num1 <= num2 Y num1 <= num3 Entonces
+        menor <- num1
+    SiNo
+        Si num2 <= num1 Y num2 <= num3 Entonces
+            menor <- num2
+        SiNo
+            menor <- num3
+        FinSi
+    FinSi
+
+    Escribir "El menor de los tres numeros es: ", menor
+FinAlgoritmo
