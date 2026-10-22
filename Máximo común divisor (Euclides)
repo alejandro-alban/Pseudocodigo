@@ -1,0 +1,17 @@
+Algoritmo MCD_Euclides
+    //Declaraciones
+    Definir numero1, numero2, residuo Como Entero
+    //Cuerpo
+    Escribir "Ingrese el primer numero entero positivo:"
+      Leer numero1
+    Escribir "Ingrese el segundo numero entero positivo:"
+      Leer numero2
+
+    Mientras numero2 <> 0 Hacer
+        residuo <- numero1 MOD numero2
+        numero1 <- numero2
+        numero2 <- residuo
+    FinMientras
+
+    Escribir "El maximo comun divisor es: ", numero1
+FinAlgoritmo
