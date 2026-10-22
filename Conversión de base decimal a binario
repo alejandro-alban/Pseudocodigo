@@ -1,0 +1,24 @@
+Algoritmo Decimal_Binario()
+    //Declaraciones
+    Definir numero, residuo Como Entero
+    Definir binario Como Cadena
+    //Cuerpo
+    Escribir "Ingrese un numero decimal entero positivo:"
+      Leer numero
+
+    binario <- ""
+    Si numero = 0 Entonces
+        binario <- "0"
+    SiNo
+        Mientras numero > 0 Hacer
+            residuo <- numero MOD 2
+            Escribir "Residuo: ", residuo
+
+            binario <- ConvertirATexto(residuo) + binario
+            numero <- Trunc(numero / 2)
+            Escribir "Cociente: ", numero
+        FinMientras
+    FinSi
+
+    Escribir "El numero binario es: ", binario
+FinAlgoritmo
