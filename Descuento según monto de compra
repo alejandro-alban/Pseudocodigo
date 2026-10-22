@@ -1,0 +1,20 @@
+Algoritmo Descuento_Compra()
+    //Declaracion
+    Definir monto, descuento, totalPagar Como Real
+    //Cuerpo
+    Escribir "Ingrese el monto de la compra:"
+      Leer monto
+    Si monto >= 200 Entonces
+        descuento <- monto * 0.15
+    SiNo
+        Si monto >= 100 Entonces
+            descuento <- monto * 0.10
+        SiNo
+            descuento <- monto * 0.05
+        FinSi
+    FinSi
+
+    totalPagar <- monto - descuento
+
+    Escribir "El monto a pagar es: $", totalPagar
+FinAlgoritmo
