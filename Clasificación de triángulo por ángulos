@@ -1,0 +1,26 @@
+Algoritmo Clasificar_Triangulo
+    //Declaraciones
+    Definir angulo1, angulo2, angulo3, suma Como Real
+    //Cuerpo
+    Escribir "Ingrese el primer angulo:"
+      Leer angulo1
+    Escribir "Ingrese el segundo angulo:"
+      Leer angulo2
+    Escribir "Ingrese el tercer angulo:"
+      Leer angulo3
+
+    suma <- angulo1 + angulo2 + angulo3
+    Si angulo1 > 0 Y angulo2 > 0 Y angulo3 > 0 Y suma = 180 Entonces
+        Si angulo1 = 90 O angulo2 = 90 O angulo3 = 90 Entonces
+            Escribir "El triangulo es rectangulo"
+        SiNo
+            Si angulo1 > 90 O angulo2 > 90 O angulo3 > 90 Entonces
+                Escribir "El triangulo es obtusangulo"
+            SiNo
+                Escribir "El triangulo es acutangulo"
+            FinSi
+        FinSi
+    SiNo
+        Escribir "Los angulos no forman un triangulo"
+    FinSi
+FinAlgoritmo
