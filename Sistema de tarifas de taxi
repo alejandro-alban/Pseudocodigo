@@ -1,0 +1,24 @@
+Algoritmo Tarifa_Taxi
+
+    //Declaraciones
+    Definir kilometros, tarifa, total Como Real
+    Definir noche Como Caracter
+    //Cuerpo
+    Escribir "Ingrese los kilometros del viaje:"
+      Leer kilometros
+    Escribir "Es de noche? Ingrese S o N:"
+      Leer noche
+
+    tarifa <- 2 + (kilometros * 1.50)
+    Si kilometros > 10 Entonces
+        tarifa <- tarifa * 1.20
+    FinSi
+
+    Si noche = "S" O noche = "s" Entonces
+        tarifa <- tarifa * 1.30
+    FinSi
+
+    total <- tarifa
+
+    Escribir "El total a pagar es: $", total
+FinAlgoritmo
