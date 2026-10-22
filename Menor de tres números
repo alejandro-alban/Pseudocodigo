@@ -1,4 +1,4 @@
-Algoritmo Menor_Tres_Numeros
+Algoritmo Menor_Tres_Numeros()
     //Declaraciones
     Definir num1, num2, num3, menor Como Real
     //Cuerpo
