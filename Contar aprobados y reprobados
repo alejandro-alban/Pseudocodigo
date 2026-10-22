@@ -1,0 +1,23 @@
+Algoritmo Contar_Aprobados_Reprobados()
+    //Declaraciones
+    Definir N, i, aprobados, reprobados Como Entero
+    Definir nota Como Real
+    //Cuerpo
+    aprobados <- 0
+    reprobados <- 0
+    Escribir "Ingrese la cantidad de estudiantes:"
+      Leer N
+
+    Para i <- 1 Hasta N Hacer
+        Escribir "Ingrese la nota del estudiante ", i, ":"
+          Leer nota
+        Si nota >= 7 Entonces
+            aprobados <- aprobados + 1
+        SiNo
+            reprobados <- reprobados + 1
+        FinSi
+    FinPara
+
+    Escribir "Cantidad de aprobados: ", aprobados
+    Escribir "Cantidad de reprobados: ", reprobados
+FinAlgoritmo
