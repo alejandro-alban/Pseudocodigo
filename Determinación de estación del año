@@ -1,0 +1,27 @@
+Algoritmo Estacion_Anio()
+    //Declaraciones
+    Definir mes, dia Como Entero
+    //Cuerpo
+    Escribir "Ingrese el numero del mes (1-12):"
+      Leer mes
+    Escribir "Ingrese el dia:"
+      Leer dia
+
+    Si mes < 1 O mes > 12 O dia < 1 O dia > 31 Entonces
+        Escribir "Fecha no valida"
+    SiNo
+        Si mes = 12 O mes = 1 O mes = 2 O mes = 3 Entonces
+            Escribir "La estacion es verano"
+        SiNo
+            Si mes = 4 O mes = 5 Entonces
+                Escribir "La estacion es otono"
+            SiNo
+                Si mes >= 6 Y mes <= 8 Entonces
+                    Escribir "La estacion es invierno"
+                SiNo
+                    Escribir "La estacion es primavera"
+                FinSi
+            FinSi
+        FinSi
+    FinSi
+FinAlgoritmo
