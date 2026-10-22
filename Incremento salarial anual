@@ -1,0 +1,14 @@
+Algoritmo Incremento_Salarial
+    //Declaraciones
+    Definir salario Como Real
+    Definir anio Como Entero
+    //Cuerpo
+    salario <- 1500
+
+    Para anio <- 1 Hasta 6 Hacer
+        salario <- salario * 1.10
+        Escribir "Salario del anio ", anio, ": $", salario
+    FinPara
+
+    Escribir "Salario final despues de 6 anios: $", salario
+FinAlgoritmo
