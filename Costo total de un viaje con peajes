@@ -1,0 +1,27 @@
+Algoritmo Costo_Viaje_Peajes()
+    //Declaraciones
+    Definir distancia, consumo, precioCombustible Como Real
+    Definir litros, costoCombustible, costoPeaje, costoPeajes, costoTotal Como Real
+    Definir numeroPeajes Como Entero
+    //Cuerpo
+    Escribir "Ingrese la distancia del viaje en km:"
+      Leer distancia
+    Escribir "Ingrese el consumo del auto en km por litro:"
+      Leer consumo
+    Escribir "Ingrese el precio del combustible por litro:"
+      Leer precioCombustible
+    Escribir "Ingrese el numero de peajes:"
+      Leer numeroPeajes
+    Escribir "Ingrese el costo unitario de cada peaje:"
+      Leer costoPeaje
+
+    litros <- distancia / consumo
+    costoCombustible <- litros * precioCombustible
+    costoPeajes <- numeroPeajes * costoPeaje
+    costoTotal <- costoCombustible + costoPeajes
+
+    Escribir "Litros necesarios: ", litros
+    Escribir "Costo del combustible: $", costoCombustible
+    Escribir "Costo de los peajes: $", costoPeajes
+    Escribir "Costo total del viaje: $", costoTotal
+FinAlgoritmo
