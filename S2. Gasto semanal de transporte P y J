@@ -1,0 +1,32 @@
+Python
+viajes = int(input("Viajes por día: "))
+costo = float(input("Costo de cada pasaje: "))
+dias = int(input("Días que viaja a la semana: "))
+
+gasto = viajes * costo * dias
+
+print("Gasto semanal:", gasto)
+
+
+
+Java
+import java.util.Scanner;
+
+public class S2 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Viajes por día: ");
+        int viajes = sc.nextInt();
+
+        System.out.print("Costo de cada pasaje: ");
+        double costo = sc.nextDouble();
+
+        System.out.print("Días que viaja a la semana: ");
+        int dias = sc.nextInt();
+
+        double gasto = viajes * costo * dias;
+
+        System.out.println("Gasto semanal: " + gasto);
+    }
+}
