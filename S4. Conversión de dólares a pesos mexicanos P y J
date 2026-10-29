@@ -1,0 +1,28 @@
+Python
+dolares = float(input("Ingrese la cantidad en dólares: "))
+cambio = float(input("Ingrese el tipo de cambio: "))
+
+pesos = dolares * cambio
+
+print("Cantidad en pesos mexicanos:", pesos)
+
+
+
+Java
+import java.util.Scanner;
+
+public class S4 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Ingrese la cantidad en dólares: ");
+        double dolares = sc.nextDouble();
+
+        System.out.print("Ingrese el tipo de cambio: ");
+        double cambio = sc.nextDouble();
+
+        double pesos = dolares * cambio;
+
+        System.out.println("Cantidad en pesos mexicanos: " + pesos);
+    }
+}
