@@ -1,0 +1,37 @@
+Python
+horas = float(input("Ingrese las horas trabajadas: "))
+tarifa = float(input("Ingrese el pago por hora: "))
+
+if horas <= 40:
+    sueldo = horas * tarifa
+else:
+    sueldo = (40 * tarifa) + ((horas - 40) * tarifa * 2)
+
+print("Sueldo semanal:", sueldo)
+
+
+
+Java
+import java.util.Scanner;
+
+public class Sel1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Ingrese las horas trabajadas: ");
+        double horas = sc.nextDouble();
+
+        System.out.print("Ingrese el pago por hora: ");
+        double tarifa = sc.nextDouble();
+
+        double sueldo;
+
+        if (horas <= 40) {
+            sueldo = horas * tarifa;
+        } else {
+            sueldo = (40 * tarifa) + ((horas - 40) * tarifa * 2);
+        }
+
+        System.out.println("Sueldo semanal: " + sueldo);
+    }
+}
