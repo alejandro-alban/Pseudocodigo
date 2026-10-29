@@ -1,0 +1,21 @@
+Algoritmo Numero_Perfecto
+  //Declaraciones
+  Definir n, i, suma Como Entero
+  //Cuerpo
+  Escribir "Ingrese un numero entero positivo:"
+    Leer n
+
+    suma <- 0
+
+    Para i <- 1 Hasta n-1 Hacer
+        Si n MOD i = 0 Entonces
+          suma <- suma + i
+        FinSi
+    FinPara
+
+  Si n > 0 Y suma = n Entonces
+      Escribir "El numero es perfecto"
+  SiNo
+      Escribir "El numero no es perfecto"
+  FinSi
+FinAlgoritmo
