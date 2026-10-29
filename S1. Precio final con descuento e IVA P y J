@@ -1,0 +1,32 @@
+Python
+precio = float(input("Ingrese el precio original: "))
+
+descuento = precio * 0.20
+precio_descuento = precio - descuento
+iva = precio_descuento * 0.15
+precio_final = precio_descuento + iva
+
+print("Precio con descuento:", precio_descuento)
+print("Precio final:", precio_final)  
+
+
+
+Java
+import java.util.Scanner;
+
+public class S1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Ingrese el precio original: ");
+        double precio = sc.nextDouble();
+
+        double descuento = precio * 0.20;
+        double precioDescuento = precio - descuento;
+        double iva = precioDescuento * 0.15;
+        double precioFinal = precioDescuento + iva;
+
+        System.out.println("Precio con descuento: " + precioDescuento);
+        System.out.println("Precio final: " + precioFinal);
+    }
+}
