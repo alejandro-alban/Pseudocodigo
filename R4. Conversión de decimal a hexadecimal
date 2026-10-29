@@ -1,0 +1,42 @@
+Algoritmo Decimal_Hexadecimal
+  //Declaraciones
+  Definir num, residuo Como Entero
+  Definir hexadecimal, digito Como Cadena
+  //Cuerpo
+  Escribir "Ingrese un numero entero positivo:"
+    Leer num
+
+    hexadecimal <- ""
+
+    Si num = 0 Entonces
+        hexadecimal <- "0"
+    SiNo
+        Mientras num > 0 Hacer
+            residuo <- num MOD 16
+
+            Si residuo < 10 Entonces
+                digito <- ConvertirATexto(residuo)
+            SiNo
+                Segun residuo Hacer
+                    10:
+                        digito <- "A"
+                    11:
+                        digito <- "B"
+                    12:
+                        digito <- "C"
+                    13:
+                        digito <- "D"
+                    14:
+                        digito <- "E"
+                    15:
+                        digito <- "F"
+                FinSegun
+            FinSi
+
+            hexadecimal <- digito + hexadecimal
+            num <- Trunc(num / 16)
+        FinMientras
+    FinSi
+
+  Escribir "Numero hexadecimal: ", hexadecimal
+FinAlgoritmo
