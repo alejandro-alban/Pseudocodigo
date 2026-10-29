@@ -1,0 +1,23 @@
+Algoritmo Ahorro_Interes_Compuesto
+  //Declaraciones
+  Definir capital, deposito, tasa, saldo Como Real
+  Definir n, mes Como Entero
+  //Cuerpo
+  Escribir "Ingrese el capital inicial:"
+    Leer capital
+  Escribir "Ingrese el deposito mensual:"
+    Leer deposito
+  Escribir "Ingrese el numero de meses:"
+    Leer n
+  Escribir "Ingrese la tasa de interes mensual (%):"
+    Leer tasa
+
+    saldo <- capital
+
+    Para mes <- 1 Hasta n Hacer
+        saldo <- (saldo + deposito) * (1 + tasa / 100)
+        Escribir "Saldo del mes ", mes, ": ", saldo
+    FinPara
+
+  Escribir "Saldo final: ", saldo
+FinAlgoritmo
