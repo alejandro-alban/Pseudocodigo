@@ -1,0 +1,27 @@
+Python
+promedio = float(input("Ingrese el promedio final: "))
+
+if promedio >= 7:
+    print("APRUEBA")
+else:
+    print("NO APRUEBA")
+
+
+
+Java
+import java.util.Scanner;
+
+public class Sel2 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Ingrese el promedio final: ");
+        double promedio = sc.nextDouble();
+
+        if (promedio >= 7) {
+            System.out.println("APRUEBA");
+        } else {
+            System.out.println("NO APRUEBA");
+        }
+    }
+}
