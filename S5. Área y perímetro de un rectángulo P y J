@@ -1,0 +1,32 @@
+Python4
+largo = float(input("Ingrese el largo: "))
+ancho = float(input("Ingrese el ancho: "))
+
+area = largo * ancho
+perimetro = 2 * (largo + ancho)
+
+print("Área:", area)
+print("Perímetro:", perimetro)
+
+
+
+Java
+import java.util.Scanner;
+
+public class S5 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Ingrese el largo: ");
+        double largo = sc.nextDouble();
+
+        System.out.print("Ingrese el ancho: ");
+        double ancho = sc.nextDouble();
+
+        double area = largo * ancho;
+        double perimetro = 2 * (largo + ancho);
+
+        System.out.println("Área: " + area);
+        System.out.println("Perímetro: " + perimetro);
+    }
+}
