@@ -1,0 +1,45 @@
+Python
+a = float(input("Ingrese el primer número: "))
+b = float(input("Ingrese el segundo número: "))
+c = float(input("Ingrese el tercer número: "))
+
+if a <= b and a <= c:
+    menor = a
+elif b <= a and b <= c:
+    menor = b
+else:
+    menor = c
+
+print("El menor es:", menor)
+
+
+
+Java
+import java.util.Scanner;
+
+public class Sel5 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Ingrese el primer número: ");
+        double a = sc.nextDouble();
+
+        System.out.print("Ingrese el segundo número: ");
+        double b = sc.nextDouble();
+
+        System.out.print("Ingrese el tercer número: ");
+        double c = sc.nextDouble();
+
+        double menor;
+
+        if (a <= b && a <= c) {
+            menor = a;
+        } else if (b <= a && b <= c) {
+            menor = b;
+        } else {
+            menor = c;
+        }
+
+        System.out.println("El menor es: " + menor);
+    }
+}
