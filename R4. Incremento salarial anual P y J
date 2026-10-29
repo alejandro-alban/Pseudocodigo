@@ -1,0 +1,24 @@
+Python
+salario = 1500
+
+for anio in range(1, 7):
+    salario = salario * 1.10
+    print("Salario del año", anio, ":", round(salario, 2))
+
+print("Salario final:", round(salario, 2))
+
+
+
+Java
+public class R4 {
+    public static void main(String[] args) {
+        double salario = 1500;
+
+        for (int anio = 1; anio <= 6; anio++) {
+            salario = salario * 1.10;
+            System.out.printf("Salario del año %d: %.2f%n", anio, salario);
+        }
+
+        System.out.printf("Salario final: %.2f%n", salario);
+    }
+}
